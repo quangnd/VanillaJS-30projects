@@ -2,11 +2,11 @@
 
 1. We need check HTML document has been completely loaded and parsed, without waiting for stylesheets, images, and subframes to finish loading
 
-```
-document.addEventListener('DOMContentLoaded', function(e){
-    //DOM loaded
-});
-```
+    ```
+    document.addEventListener('DOMContentLoaded', function(e){
+        //DOM loaded
+    });
+    ```
 
 2. To remove a CSS class on a element, we need to find out the element's event. In this case, **transitionend** was occured when the element transformed!
 
