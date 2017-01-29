@@ -1,6 +1,6 @@
 # For better learning
 
-See online at Codepen [Javascript Clock](http://codepen.io/quangnd/full/qRVejz/)
+See online at Codepen [http://codepen.io/quangnd/full/qRVejz/](http://codepen.io/quangnd/full/qRVejz/)
 
 1. CSS Animation
 
