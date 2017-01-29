@@ -1,14 +1,16 @@
 # For better learning (updating...)
 
-1. We need check HTML document has been completely loaded and parsed, without waiting for stylesheets, images, and subframes to finish loading
+1. CSS Animation
 
-    ```
-    document.addEventListener('DOMContentLoaded', function(e){
-        //DOM loaded
-    });
-    ```
+```
+http://www.the-art-of-web.com/css/css-animation/
+```
 
-2. To remove a CSS class on a element, we need to find out the element's event. In this case, **transitionend** was occured when the element transformed!
+2. Transition and timing function
+
+```
+http://www.the-art-of-web.com/css/timing-function/
+```
 
 3. Some useful JS commands
 
