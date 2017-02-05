@@ -4,7 +4,7 @@ See online at Codepen [http://codepen.io/quangnd/full/jyKLQb/](http://codepen.io
 
 1. Note about Callback function
 
-	* `funciton callbackFunc(){ console.log(this.value)}`.
+	* `function callbackFunc(){ console.log(this.value)}`.
 	* `input.addEventListener('change', callbackFunc)`.
 
 2. Find out CSS Variable
