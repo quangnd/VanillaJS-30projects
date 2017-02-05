@@ -12,4 +12,4 @@ See online at Codepen [http://codepen.io/quangnd/full/qRVejz/](http://codepen.io
 
 3. Some useful JS commands
 
-    *  `element.style.transform = `rotate(10deg)` //set transform CSS attribute
+    *  `this.dataset` //get data-attribute from HTML
