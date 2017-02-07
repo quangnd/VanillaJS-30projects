@@ -2,10 +2,9 @@
 
 See online at Codepen [http://codepen.io/quangnd/full/jyKLQb/](http://codepen.io/quangnd/full/jyKLQb/)
 
-1. Note about Callback function
+1. Convert NodeList to Array
 
-	* `function callbackFunc(){ console.log(this.value)}`.
-	* `input.addEventListener('change', callbackFunc)`.
+	* `Array.from(nodeList)` 
 
 2. Find out CSS Variable
 
@@ -14,6 +13,6 @@ See online at Codepen [http://codepen.io/quangnd/full/jyKLQb/](http://codepen.io
 
 3. Some useful JS commands
 
-    *  `this.dataset` //get data-attribute from HTML, for example: **this.dataset.sizing** get value **data-sizing**
+    * `this.dataset` //get data-attribute from HTML, for example: **this.dataset.sizing** get value **data-sizing**
 	* `document.documentElement.style.setProperty(propertyName, value)` //set property for documentElement
 	* Set CSS property value `padding: var(--spacing);`
