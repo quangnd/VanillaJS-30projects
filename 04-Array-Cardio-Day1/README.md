@@ -1,18 +1,15 @@
 # Array Cardio Day 1
 
-See online at Codepen [http://codepen.io/quangnd/full/jyKLQb/](http://codepen.io/quangnd/full/jyKLQb/)
+See online at Codepen [http://codepen.io/quangnd/full/YNOZpZ/](http://codepen.io/quangnd/full/YNOZpZ/)
 
 1. Convert NodeList to Array
 
 	* `Array.from(nodeList)` 
 
-2. Find out CSS Variable
+2. Destructuring (ES6)
 
-	* [https://developers.google.com/web/updates/2016/02/css-variables-why-should-you-care](https://developers.google.com/web/updates/2016/02/css-variables-why-should-you-care)
-	* [https://css-tricks.com/difference-between-types-of-css-variables/](https://css-tricks.com/difference-between-types-of-css-variables/)
+	* `let [a,b] = [1,2]`  //assign a = 1, b = 2 
 
-3. Some useful JS commands
+3. Find sub text in string
 
-    * `this.dataset` //get data-attribute from HTML, for example: **this.dataset.sizing** get value **data-sizing**
-	* `document.documentElement.style.setProperty(propertyName, value)` //set property for documentElement
-	* Set CSS property value `padding: var(--spacing);`
+    * `streetName.includes('de')` 
