@@ -1,5 +1,7 @@
-Goal after lesson
+Javascript projects for fun 🕺
 --
+
+Goal after lesson
 
 1. Note about the new knowledge
 2. Note about the difficult knowledge
