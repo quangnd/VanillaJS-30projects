@@ -1,19 +1,21 @@
 # Ajax Type Ahead
 
-See online at Codepen [http://codepen.io/quangnd/full/YNMzqZ/](http://codepen.io/quangnd/full/YNMzqZ/)
+See online at Codepen [http://codepen.io/quangnd/full/xgNKmN/](http://codepen.io/quangnd/full/xgNKmN/)
 
-1. Learn more about flex (Best tutorials I found 🙌)
+1. Learn more about fetch
 
-	* [Free course at http://flexbox.io/](http://flexbox.io/)
-	* [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) 
-	* [Learning CSS Layout with Flexbox Froggy](http://flexboxfroggy.com/)
-	* [Understanding Flexbox: Everything you need to know](https://medium.freecodecamp.com/understanding-flexbox-everything-you-need-to-know-b4013d4dc9af#.h63jv4dhu)
-	* [A Visual Guide to CSS3 Flexbox Properties](https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties)
-	* [https://tympanus.net/codrops/css_reference/flexbox/](https://tympanus.net/codrops/css_reference/flexbox/)
+	* [Introduction to fetch()](https://developers.google.com/web/updates/2015/03/introduction-to-fetch)
 
 2. Note
 
-   ```
-    /* Safari transitionend event.propertyName === flex */
-    /* Chrome + FF transitionend event.propertyName === flex-grow */
-   ```
+	* Fetch data
+		```
+		fetch(endpoint)
+		.then(blob => blob.json())
+		.then(city => cities.push(...city));
+		.catch(err => {  
+			console.log('Fetch Error :-S', err);  
+		});
+		```
+	* Create new RegExp `const regex = new RegExp(value, 'gi');`  //global and incasesensitve
+    * Return match `text.match(regex)`
