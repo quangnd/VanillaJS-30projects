@@ -1,15 +1,9 @@
 # Array Cardio Day 2
 
-See online at Codepen [http://codepen.io/quangnd/full/YNOZpZ/](http://codepen.io/quangnd/full/YNOZpZ/)
+See online at Codepen [http://codepen.io/quangnd/pen/YNmqgM](http://codepen.io/quangnd/pen/YNmqgM)
 
-1. Convert NodeList to Array
+1. Delete element from array
 
-	* `Array.from(nodeList)` 
-
-2. Destructuring (ES6)
-
-	* `let [a,b] = [1,2]`  //assign a = 1, b = 2 
-
-3. Find sub text in string
-
-    * `streetName.includes('de')` 
+	* Find index `const index =  comments.findIndex(comment => comment.id === 823423);`
+	* Delete `comments.splice(index, 1)`
+ 
