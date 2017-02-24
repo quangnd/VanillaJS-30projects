@@ -16,6 +16,7 @@
 6. [Ajax Type Ahead](http://codepen.io/quangnd/full/xgNKmN/)
 7. [Array Cardio Day 2](http://codepen.io/quangnd/pen/YNmqgM)
 8. [Fun with HTML5 Canvas](http://codepen.io/quangnd/full/VpwPLG/)
-9. [14 Must know Dev Tool Tricks]()
+9. [14 Must know Dev Tool Tricks](http://codepen.io/quangnd/full/OpJqXe/)
+10. [Hold Shift to check Multiple Checkboxes]()
 
 
