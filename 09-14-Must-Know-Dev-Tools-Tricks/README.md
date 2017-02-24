@@ -1,4 +1,4 @@
-# Fun with HTML 5 Canvas
+# 14 Must Know Dev Tools Tricks
 
 See online at Codepen [http://codepen.io/quangnd/full/VpwPLG/](http://codepen.io/quangnd/full/VpwPLG/)
 
