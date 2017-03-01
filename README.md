@@ -18,5 +18,6 @@
 8. [Fun with HTML5 Canvas](http://codepen.io/quangnd/full/VpwPLG/)
 9. [14 Must know Dev Tool Tricks](http://codepen.io/quangnd/full/OpJqXe/)
 10. [Hold Shift to check Multiple Checkboxes](http://codepen.io/quangnd/full/jBEBjp/)
+11. [Custom HTML5 Video Player](http://codepen.io/quangnd/full/yMeeXa/)
 
 
