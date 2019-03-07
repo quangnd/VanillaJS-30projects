@@ -14,10 +14,8 @@ function pressToPlaySound(e) {
 }
 
 function clickToPlaySound(e) {
-  if (e.target.className === 'keys') return; //skip it if it's not a button
-
-  const textContent = e.target.textContent;
-  const audioKeyCode = textContent.charCodeAt(0);
+  const textContent = e.target.outerText;
+  const audioKeyCode = textContent && textContent[0].charCodeAt(0);
 
   pressToPlaySound({ keyCode: audioKeyCode});
 }
@@ -31,9 +29,12 @@ function removeTransition(e) {
 function onDidLoad(e) {
   const keys = document.querySelectorAll('.key');
 
-  keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+  keys.forEach(key => {
+    key.addEventListener('transitionend', removeTransition);
+    key.addEventListener('click', clickToPlaySound);
+  });
+
   window.addEventListener('keydown', pressToPlaySound)
-  window.addEventListener('click', clickToPlaySound)
 }
 
 document.addEventListener('DOMContentLoaded', onDidLoad);

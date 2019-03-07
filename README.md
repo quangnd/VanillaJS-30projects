@@ -8,9 +8,9 @@ Following the Javascript30 course from Wesbos. Added *practicing guide* and *mor
 3. Some ideas can expand based on lesson (if needed).
 4. Finished file is for reference.
 
-## List Online Demo 👨🏻‍💻
+## List Online Demo at CodePen 👨🏻‍💻
 
-1. [Javascript Drum Kit](#)
+1. [Javascript Drum Kit](https://codepen.io/quangnd/full/drvXEG)
 2. [JS + CSS Clock](http://codepen.io/quangnd/full/qRVejz/)
 3. [JS Var CSS](http://codepen.io/quangnd/full/jyKLQb/)
 4. [Array Cardio Day 1](http://codepen.io/quangnd/full/YNOZpZ/)
@@ -22,4 +22,4 @@ Following the Javascript30 course from Wesbos. Added *practicing guide* and *mor
 10. [Hold Shift to check Multiple Checkboxes](http://codepen.io/quangnd/full/jBEBjp/)
 11. [Custom HTML5 Video Player](http://codepen.io/quangnd/full/yMeeXa/)
 
-
+*Made by Mun with ❤*
