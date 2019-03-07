@@ -1,8 +1,8 @@
+const secondHand = document.querySelector('.second-hand');
+const minHand = document.querySelector('.min-hand');
+const hourHand = document.querySelector('.hour-hand');
 
 function setDate() {
-  const secondHand = document.querySelector('.second-hand');
-  const minHand = document.querySelector('.min-hand');
-  const hourHand = document.querySelector('.hour-hand');
 
   const now = new Date();
   const seconds = now.getSeconds();
@@ -19,9 +19,5 @@ function setDate() {
 
 }
 
-function onDidLoad(e) {
-  setDate();
-  setInterval(setDate, 1000);
-}
-
-document.addEventListener('DOMContentLoaded', onDidLoad);
+setDate();
+setInterval(setDate, 1000);
