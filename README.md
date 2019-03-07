@@ -1,12 +1,14 @@
 # Javascript projects for fun 🕺
+Following the Javascript30 course from Wesbos. Added *practicing guide* and *more knowledges* for my purpose **LEARN BY DOING** 😉.
 
-## Goal after lesson
+## Goal after lesson 🔥
 
-1. Note about the new knowledge
-2. Note about the difficult knowledge
-3. Some ideas can expand based on lesson
+1. Notes about the useful knowledges.
+2. Add a practice file with the detail of requirement.
+3. Some ideas can expand based on lesson (if needed).
+4. Finished file is for reference.
 
-## List Online Demo
+## List Online Demo 👨🏻‍💻
 
 1. [Javascript Drum Kit](#)
 2. [JS + CSS Clock](http://codepen.io/quangnd/full/qRVejz/)
