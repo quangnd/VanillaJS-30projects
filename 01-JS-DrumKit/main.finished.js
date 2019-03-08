@@ -26,16 +26,12 @@ function removeTransition(e) {
   this.classList.remove('playing'); 
 }
 
-function onDidLoad(e) {
-  const keys = document.querySelectorAll('.key');
 
-  keys.forEach(key => {
-    key.addEventListener('transitionend', removeTransition);
-    key.addEventListener('click', clickToPlaySound);
-  });
+const keys = document.querySelectorAll('.key');
+keys.forEach(key => {
+  key.addEventListener('transitionend', removeTransition);
+  key.addEventListener('click', clickToPlaySound);
+});
 
-  window.addEventListener('keydown', pressToPlaySound)
-}
-
-document.addEventListener('DOMContentLoaded', onDidLoad);
+document.addEventListener('keydown', pressToPlaySound)
 
