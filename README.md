@@ -22,4 +22,4 @@ Following the Javascript30 course from Wesbos. Added *practicing guide* and *mor
 10. [Hold Shift to check Multiple Checkboxes](http://codepen.io/quangnd/full/jBEBjp/)
 11. [Custom HTML5 Video Player](http://codepen.io/quangnd/full/yMeeXa/)
 
-*Made by Mun with ❤*
+*Made with ❤ by Mun*
